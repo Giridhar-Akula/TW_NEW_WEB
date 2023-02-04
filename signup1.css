@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body{
+    padding: 30px;
+    background-image: linear-gradient(to right, #64E9FF, #103cE7);
+    
+}
+
+#signup-form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+a {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #FF4066, #FFF16A);
+  color: white;
+  border: none;
+    font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
